@@ -1,21 +1,22 @@
 {
-  "name": "stued-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "amazon-cognito-identity-js": "^4.2.1",
-    "aws-sdk": "^2.653.0",
-    "body-parser": "^1.19.0",
-    "crypto": "^1.0.1",
-    "express": "^4.17.1",
-    "joi": "^14.3.1",
-    "request": "^2.88.2",
-    "uuid": "^7.0.3"
-  }
+     "name": "stued-backend",
+     "version": "1.0.0",
+     "description": "",
+     "main": "index.js",
+     "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "start": "node ./src/index.js"
+     },
+     "author": "",
+     "license": "ISC",
+     "dependencies": {
+          "amazon-cognito-identity-js": "^4.2.1",
+          "aws-sdk": "^2.653.0",
+          "body-parser": "^1.19.0",
+          "crypto": "^1.0.1",
+          "express": "^4.17.1",
+          "joi": "^14.3.1",
+          "request": "^2.88.2",
+          "uuid": "^7.0.3"
+     }
 }

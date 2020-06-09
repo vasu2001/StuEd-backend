@@ -8,8 +8,8 @@ const Cognito = new AWS.CognitoIdentityServiceProvider({
      region: "ap-south-1",
      UserPoolId,
      UserPoolClientId: ClientId,
-     accessKeyId: "AKIAJNZM2KUGJRCQPHSQ",
-     secretAccessKey: "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",
+     accessKeyId: "",
+     secretAccessKey: "",
 });
 const dynamodb = new AWS.DynamoDB({
      region: "local",
